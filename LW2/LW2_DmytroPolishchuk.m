@@ -36,7 +36,5 @@ min_val = min(s_b)
 max_val = max(s_b)
 %% 
 v = input('enter 12 element vector: ');
-%indices = 1:length(v);
-%logical_mask = (indices >= 10 & indices <= 12) | (indices >= 1 & indices <= 9);
 v2 = [v(10:end), v(1:9)];
 disp(v2);
