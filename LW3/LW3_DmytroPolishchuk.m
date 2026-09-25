@@ -5,7 +5,7 @@
 v1 = linspace(0,4,81);
 fv1 = v1;
 fv2 = v1.^2;
-fv3 = v1.^2;
+fv3 = v1.^3;
 hold on;
 title('Graphs of the functions xn');
 ylabel('f_1(x) = x; f_2(x)=x^2; f_3(x)=x^3');
