@@ -1,7 +1,7 @@
 % Dmytro Polishchuk Ekfu-25/1
 % 18.09.2026
 
-%% 
+%% task 1,2
 v = (-pi/2:0.5:3*pi)'
 v_squared = v.^2
 v_sin = sin(v+v_squared)
@@ -10,9 +10,8 @@ disp(v_sin')
 Z = rand(3,3)
 Z(2, :) = [];
 Z'
-%% 
-
-
+%% task 3
+ 
 A=6
 f=4
 sigma = 1.2
@@ -34,7 +33,7 @@ d = length(s_a)
 
 min_val = min(s_b)
 max_val = max(s_b)
-%% 
+%% complementary task
 v = input('enter 12 element vector: ');
 v2 = [v(10:end), v(1:9)];
 disp(v2);

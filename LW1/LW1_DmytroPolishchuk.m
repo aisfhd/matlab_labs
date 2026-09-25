@@ -15,6 +15,9 @@ matrix = reshape(N:(N+8),3,3);
 a = matrix(3,2);
 b = matrix(2:3, 1:2);
 c = matrix([1, 3], [1, 3]);
+disp(a)
+disp(b)
+disp(c)
 
 v2 = V(1:3);
 matrix2 = [matrix, v2'];
